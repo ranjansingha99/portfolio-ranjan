@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  position: relative; /* Needed for absolute positioning of children */
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  /* Center the copyright text */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
