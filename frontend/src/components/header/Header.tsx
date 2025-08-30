@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/logo.svg';
-import type { Section } from '../App';
+import logo from '../../assets/logo.svg';
+import type { Section } from '../../App';
 
 interface HeaderProps {
   activeSection: Section;

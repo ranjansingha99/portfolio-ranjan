@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './App.css'
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Home from './components/pages/home/Home';
+import About from './components/pages/about/About';
+import Projects from './components/pages/projects/Projects';
+import Contact from './components/pages/contacts/Contact';
 
 export type Section = 'home' | 'about' | 'projects' | 'contact';
 
