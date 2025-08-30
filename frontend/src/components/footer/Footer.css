@@ -1,10 +1,10 @@
 .footer {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* This is the key change */
   padding: 1rem 2rem;
   background-color: #333;
   color: #fff;
-  position: relative; /* Needed for absolute positioning of children */
 }
 
 .social-media {
@@ -24,8 +24,4 @@
 
 .copyright {
   font-size: 0.9rem;
-  /* Center the copyright text */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
