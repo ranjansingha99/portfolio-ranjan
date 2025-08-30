@@ -31,7 +31,8 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection }) => {
         </ul>
       </nav>
       <div className="header-right">
-        <a href="https://drive.google.com/drive/u/4/folders/1emJAAwI5rT3-6ND4QE9qaKZavlp3pne8" className="resume-button" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/drive/u/6/folders/1O7fNDsqz3dWb-Lt0aZhWx0p8pzML-mHa" 
+        className="resume-button" target="_blank" rel="noopener noreferrer">
           Resume
         </a>
       </div>
